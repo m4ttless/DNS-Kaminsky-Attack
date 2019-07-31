@@ -6,15 +6,15 @@ The goal of this lab is to show how to exploit the DNS vulnerability found by Da
 
 ## Scenario
 
- [BankOfAllan.co.uk] <----------> [DNS VM| <----------> [ATTACKER]
+ [BankOfAllan.co.uk] <----------> [dns VM| <----------> [Attacker (badguy.ru)]
 
 ## Configuration
 
 To manage this laboratory and perform the attack some configurations must be followed on the DNS VM.
 
-The VM can be downloaded [here](https://my.pcloud.com/publink/show?code=XZFyHA7ZfJaJlozTs1me2AHj5ftw6mFASab7)
+The VM can be downloaded [here](https://my.pcloud.com/publink/show?code=XZFyHA7ZfJaJlozTs1me2AHj5ftw6mFASab7).
 
-As for the VM configuration, it is first necessary to configure a .json file as follows and the default gateway in order to receive the **FLAG** once the poisoning is successful.
+As for the VM configuration, it is first necessary to configure the **.json** file as follows and the **default gateway** in order to receive the **FLAG** once the poisoning is successful.
 
 ### Default gw
 `root add default gw <attacker-IP>`
@@ -26,3 +26,9 @@ badguyIP: <badguy-IP>;
 badguyDNSport: 55553;
 secret: <thisIsTheSecret>;
 ```
+
+## Run
+'python3 attack.py'
+
+## References
+[http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html]
