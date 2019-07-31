@@ -28,7 +28,7 @@ secret: <thisIsTheSecret>;
 ```
 
 ## Run
-'python3 attack.py'
+`python3 attack.py`
 
 ## References
-[http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html]
+http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html
