@@ -14,7 +14,7 @@ To manage this laboratory and perform the attack some configurations must be fol
 
 The VM can be downloaded [here](https://my.pcloud.com/publink/show?code=XZFyHA7ZfJaJlozTs1me2AHj5ftw6mFASab7).
 
-Once logged in as **root:thisisdns**, it is first necessary to configure the **.json** file as follows and the **default gateway** in order to receive the **FLAG** once the poisoning is successful.
+Once logged in as ***root:thisisdns***, it is first necessary to configure the **.json** file as follows and the **default gateway** in order to receive the **FLAG** once the poisoning is successful.
 
 ### Default gw
 `root add default gw <attacker-IP>`
